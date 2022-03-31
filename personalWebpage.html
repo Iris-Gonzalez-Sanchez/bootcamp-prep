@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Iris Gonzalez Sanchez</title>
+  <style>
+    body {
+      text-align: center;
+      background: url("https://ibb.co/Jr9DFKY");
+      background-size: cover;
+      background-position: center;
+      color: ghostwhite;
+      font-family: 'Playfair Display';
+      font-size: 22px;
+      background: linear-gradient(
+	    -50deg, #39ad87, #3990ad, #ad398e, #38272a);
+	    background-size: 10% 100%;
+	    animation: gradient 20s ease infinite;
+    }
+    
+    h1{
+      font-family: 'Playfair Display';
+      font-size: 2.2em;
+    }
+    
+    p {
+      font-size: 1.4rem;
+    }
+    
+    input {
+      border: 15;
+      padding: 11px;
+      font-size: 15px;
+    }
+    
+    input[type="submit"] {
+      background: mediumvioletred;
+      color: snow;
+      border-radius:20px;
+    }
+    
+    input[type="text"] {
+      background: snow;
+      border-radius:30px;
+    }
+    
+    img {
+      height: 190px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 75%;
+    }
+
+    @keyframes gradient {
+	    0% {
+		    background-position: 0% 50%;
+	    }
+	    50% {
+		   background-position: 100% 50%;
+	    }
+	    100% {
+		   background-position: 0% 50%;
+	    }
+    }
+  </style>
+  <script>
+  document.addEventListener("DOMContentLoaded", () => {
+   document.getElementById("Submit-button")
+   .addEventListener("click", onSubmitClick)
+  });
+  function onSubmitClick() {
+    alert("Thanks for signing up!");
+  }
+  </script>
+</head>
+
+<body>
+  <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEBzvZrmIkxfg/profile-displayphoto-shrink_800_800/0/1637073819119?e=1653523200&v=beta&t=kTKG5IpBM-P-IFwYobO1zJHRVRhywggbitBY7IAvM8s">
+  
+
+  <h1>Welcome to my first website!</h1>
+  <p>My name is Iris Gonzalez Sanchez, a first generation student in higher education. I am pursuing a career as a fullstack engineer.</p>
+  <p>To join my journey in learning how to code, enter your name & email address below!
+  </p>
+  
