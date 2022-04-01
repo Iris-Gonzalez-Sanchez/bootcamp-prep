@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<html>
+
 <head>
   <link href="/normalize.css" rel="stylesheet">
   <style>
@@ -7,21 +9,21 @@
       background: #e6e0d4;
       background-size: cover;
       color: #86665b;
-      padding: 60 0 0 0;
+      padding: 60px 0px 0px 0px;
     }
-    
+
     a {
       color: #695b50;
       font-size: 19px;
       font-weight: 600;
-      font-family:"Gill Sans";
+      font-family: "Gill Sans";
     }
-    
+
     h1 {
       font-size: 34px;
       font-family: "Optima";
     }
-    
+
     img {
       display: block;
       margin-left: auto;
@@ -31,21 +33,26 @@
       max-width: 250px;
       height: auto;
     }
-    
-    ul {
+
+    nav {
       padding: 10px;
       background: url("https://www.maxpixel.net/static/photo/1x/Background-Wallpaper-Doodle-Education-Pattern-6052677.jpg");
     }
-    
+
+    ul {
+      padding: 0;
+      Margin: 0;
+    }
+
     li {
       display: inline;
       padding: 0px 10px 0px 10px;
     }
-    
-     body {
-      background:#e6e0d4;
+
+    body {
+      background: #e6e0d4;
     }
-    
+
     article {
       max-width: 500px;
       padding: 15px;
@@ -53,7 +60,7 @@
       font-family: "Optima";
       color: #86665b;
     }
-    
+
     button {
       background: #D2A9A6;
       text-align: center;
@@ -61,14 +68,14 @@
       width: 60px;
       border-radius: 90px;
       margin-left: 75%;
-    }  
-    
+    }
+
     @media (max-width: 500px) {
       h1 {
         font-size: 36px;
         padding: 5px;
       }
-      
+
       li {
         padding: 5px;
         display: block;
@@ -76,37 +83,48 @@
     }
   </style>
 </head>
+
 <body>
   <header>
     <img src="https://i.postimg.cc/mrqm9CVY/tony-tran.jpg">
     <h1> How to Get the Best Education </h1>
-    <ul>
-      <li><a href="#">About Me</a></li>
-      <li><a href="#">Soft Skills Training</a></li>
-      <li><a href="#">Community Support</a></li>
-    </ul>
+    <nav>
+      <ul>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Soft Skills Training</a></li>
+        <li><a href="#">Community Support</a></li>
+      </ul>
+    </nav>
   </header>
   <article>
     <h2>What is the best atmosphere to learn?</h2>
-    <p>Marfa church-key kitsch bicycle rights, 8-bit mixtape cardigan  Echo Park. Street art swag brunch, next level roof party Schlitz hella organic keffiyeh selfies. You probably haven't heard of them polaroid hashtag +1, meggings biodiesel Portland High Life cray tumblr retro.</p>
+    <p>Marfa church-key kitsch bicycle rights, 8-bit mixtape cardigan Echo Park. Street art swag brunch, next level roof
+      party Schlitz hella organic keffiyeh selfies. You probably haven't heard of them polaroid hashtag +1, meggings
+      biodiesel Portland High Life cray tumblr retro.</p>
     <img src="https://i.postimg.cc/4NCK25WK/matt-ragland.jpg">
     <button>Like</button>
   </article>
   <article>
     <h2> Where do I find a supportive community?</h2>
-    <p>chambray you probably haven't heard of them pour-over viral selvage umami skateboard VHS post-ironic selfies. Wes Anderson fanny pack twee, bicycle rights bitters blog keffiyeh plaid flannel. irony cliche sustainable mlkshk bitters. Four loko leggings chambray Vice.</p>
-   <img src="https://i.postimg.cc/vZ82Ddrw/mentorship-support.jpg">
+    <p>chambray you probably haven't heard of them pour-over viral selvage umami skateboard VHS post-ironic selfies. Wes
+      Anderson fanny pack twee, bicycle rights bitters blog keffiyeh plaid flannel. irony cliche sustainable mlkshk
+      bitters. Four loko leggings chambray Vice.</p>
+    <img src="https://i.postimg.cc/vZ82Ddrw/mentorship-support.jpg">
     <button>Like</button>
   </article>
   <article>
     <h2>How Do You Create a Sucessful Career?</h2>
-    <p>ethical thundercats sustainable locavore quinoa Neutra. Aesthetic tacky sweater single-origin coffee, bicycle rights organic lo-fi street art american apparel ennui four loko ethnic Brooklyn small batch. Forage YOLO polaroid</p>
+    <p>ethical thundercats sustainable locavore quinoa Neutra. Aesthetic tacky sweater single-origin coffee, bicycle
+      rights organic lo-fi street art american apparel ennui four loko ethnic Brooklyn small batch. Forage YOLO polaroid
+    </p>
     <img src="https://i.postimg.cc/q7CVF8bR/annie-spratt.jpg">
     <button>Like</button>
   </article>
   <script>
-    $("button").on("click", function() {
+    $("button").on("click", function () {
       alert("Thanks for the like!");
     });
   </script>
 </body>
+
+</html>
